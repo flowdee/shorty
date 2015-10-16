@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Shorty\n"
+"POT-Creation-Date: 2015-10-16 16:52+0100\n"
+"PO-Revision-Date: 2015-10-16 16:53+0100\n"
+"Last-Translator: flowdee <coder@flowdee.de>\n"
+"Language-Team: flowdee <coder@flowdee.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: shorty.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class.settings.php:31 includes/admin/class.settings.php:80
+msgid "Shorty Settings"
+msgstr "Shorty Einstellungen"
+
+#: includes/admin/class.settings.php:32 shorty.php:50
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/admin/class.settings.php:53
+msgid "Prefix"
+msgstr "Präfix"
+
+#: includes/admin/class.settings.php:67
+msgid "e.g. \"myproject_\""
+msgstr "z.B. „meinprojekt_“"
+
+#: includes/admin/class.settings.php:69
+msgid ""
+"<strong>Note:</strong> After updating the prefix you would have to update "
+"every shortcode placed within your posts/pages."
+msgstr ""
+"<strong>Hinweis:</strong> Nach dem Aktualisieren des Präfixes, musst du die "
+"platzierten Sportcodes in deinen Beiträgen/Seiten anpassen."
+
+#: includes/admin/manage-posts.php:29 includes/admin/post-type.php:16
+#: includes/admin/post-type.php:30
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/admin/post-type.php:13
+msgctxt "Post Type General Name"
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: includes/admin/post-type.php:14
+msgctxt "Post Type Singular Name"
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#. Plugin Name of the plugin/theme
+#: includes/admin/post-type.php:15
+msgid "Shorty"
+msgstr "Shorty"
+
+#: includes/admin/post-type.php:17
+msgid "Parent Shortcode:"
+msgstr "Übergeordneter Shortcode"
+
+#: includes/admin/post-type.php:18
+msgid "All Shortcodes"
+msgstr "Alle Shortcodes"
+
+#: includes/admin/post-type.php:19
+msgid "Add New Shortcode"
+msgstr "Shortcode hinzufügen"
+
+#: includes/admin/post-type.php:20
+msgid "Add New"
+msgstr "Hinzufügen"
+
+#: includes/admin/post-type.php:21
+msgid "New Shortcode"
+msgstr "Neuer Shortcode"
+
+#: includes/admin/post-type.php:22
+msgid "Edit Shortcode"
+msgstr "Shortcode bearbeiten"
+
+#: includes/admin/post-type.php:23
+msgid "Update Shortcode"
+msgstr "Shortcode aktualisieren"
+
+#: includes/admin/post-type.php:24
+msgid "View Shortcode"
+msgstr "Shortcode anschauen"
+
+#: includes/admin/post-type.php:25
+msgid "Search Shortcode"
+msgstr "Shortcode suchen"
+
+#: includes/admin/post-type.php:26
+msgid "Not found"
+msgstr "Nicht gefunden"
+
+#: includes/admin/post-type.php:27
+msgid "Not found in Trash"
+msgstr "Nicht im Papierkorb gefunden"
+
+#: shorty.php:51
+msgid "Manage Shortcodes"
+msgstr "Sportcodes verwalten"
+
+#. Description of the plugin/theme
+msgid ""
+"Hey! I'm Shorty, a WordPress Shortcode Manager and your shortcode buddy."
+msgstr ""
+"Hey! Ich bin Shorty, ein WordPress Shortcode Manager and dein Shortcode-"
+"Kumpel."
+
+#. Author of the plugin/theme
+msgid "flowdee"
+msgstr "flowdee"
+
+#. Author URI of the plugin/theme
+msgid "https://coder.flowdee.de"
+msgstr "https://coder.flowdee.de"
