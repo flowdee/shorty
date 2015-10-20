@@ -77,14 +77,15 @@ Yes! Nesting shortcodes is supported.
 
 1. Shortcodes overview
 2. Editing an existing shortcode
-3. Settings page
+3. Placing a shortcode within a post
+4. Output on frontend including execution of another shortcode
 
 == Changelog ==
 
-= Version 1.0.0 (16th October 2015) =
+= Version 1.0.0 (20th October 2015) =
 * Shorty was born!
 
 == Upgrade Notice ==
 
-= Version 1.0.0 (16th October 2015) =
+= Version 1.0.0 (20th October 2015) =
 * Shorty was born!
