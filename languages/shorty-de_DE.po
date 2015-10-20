@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shorty\n"
-"POT-Creation-Date: 2015-10-16 16:52+0100\n"
-"PO-Revision-Date: 2015-10-16 16:53+0100\n"
+"POT-Creation-Date: 2015-10-20 19:29+0100\n"
+"PO-Revision-Date: 2015-10-20 19:29+0100\n"
 "Last-Translator: flowdee <coder@flowdee.de>\n"
 "Language-Team: flowdee <coder@flowdee.de>\n"
 "Language: de_DE\n"
@@ -59,7 +59,6 @@ msgctxt "Post Type Singular Name"
 msgid "Shortcode"
 msgstr "Shortcode"
 
-#. Plugin Name of the plugin/theme
 #: includes/admin/post-type.php:15
 msgid "Shorty"
 msgstr "Shorty"
@@ -112,11 +111,15 @@ msgstr "Nicht im Papierkorb gefunden"
 msgid "Manage Shortcodes"
 msgstr "Sportcodes verwalten"
 
+#. Plugin Name of the plugin/theme
+msgid "Shorty - The Shortcode Manager"
+msgstr "Shorty - Der Shortcode Manager"
+
 #. Description of the plugin/theme
 msgid ""
-"Hey! I'm Shorty, a WordPress Shortcode Manager and your shortcode buddy."
+"Hey! I'm Shorty, the WordPress Shortcode Manager and your shortcode buddy."
 msgstr ""
-"Hey! Ich bin Shorty, ein WordPress Shortcode Manager and dein Shortcode-"
+"Hey! Ich bin Shorty, der WordPress Shortcode Manager and dein Shortcode-"
 "Kumpel."
 
 #. Author of the plugin/theme
@@ -126,3 +129,9 @@ msgstr "flowdee"
 #. Author URI of the plugin/theme
 msgid "https://coder.flowdee.de"
 msgstr "https://coder.flowdee.de"
+
+#~ msgid ""
+#~ "Hey! I'm Shorty, a WordPress Shortcode Manager and your shortcode buddy."
+#~ msgstr ""
+#~ "Hey! Ich bin Shorty, ein WordPress Shortcode Manager and dein Shortcode-"
+#~ "Kumpel."

@@ -1,7 +1,7 @@
 # Shorty
 ![Plugin Version](https://img.shields.io/wordpress/plugin/v/shorty.svg "Plugin Version") ![WordPress Version Compatibility](https://img.shields.io/wordpress/v/shorty.svg "WordPress Version Compatibility") ![Downloads](https://img.shields.io/wordpress/plugin/dt/shorty.svg "Downloads") ![Rating](https://img.shields.io/wordpress/plugin/r/shorty.svg "Rating")
 
-Hey! I'm Shorty, a WordPress Shortcode Manager and your shortcode buddy.
+Hey! I'm Shorty, the WordPress Shortcode Manager and your shortcode buddy.
 
 ## Description
 You want to create and reuse certain content on multiple pages? Give Shorty a try!

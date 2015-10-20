@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Shorty - Shortcode Manager
+Plugin Name: Shorty - The Shortcode Manager
 Plugin URL: https://coder.flowdee.de
-Description: Hey! I'm Shorty, a WordPress Shortcode Manager and your shortcode buddy.
+Description: Hey! I'm Shorty, the WordPress Shortcode Manager and your shortcode buddy.
 Version: 1.0.0
 Author: flowdee
 Author URI: https://coder.flowdee.de

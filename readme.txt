@@ -1,4 +1,4 @@
-=== Shorty - Shortcode Manager ===
+=== Shorty - The Shortcode Manager ===
 Contributors: flowdee
 Donate link: https://coder.flowdee.de
 Tags: shortcode, shortcodes, shortcode manager, shortcodes manager, shorty, manage shortcodes, manage shortcode
@@ -8,7 +8,7 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Hey! I'm Shorty, a WordPress Shortcode Manager and your shortcode buddy.
+Hey! I'm Shorty, the WordPress Shortcode Manager and your shortcode buddy.
 
 == Description ==
 You want to create and reuse certain content on multiple pages? Give Shorty a try!
