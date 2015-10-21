@@ -67,5 +67,5 @@ function shorty_add_prefix( $slug ) {
     return $slug;
 }
 
-add_filter( 'shorty_add_shortcode_slug', 'shorty_add_prefix' );
-add_filter( 'shorty_admin_display_shortcode', 'shorty_add_prefix' );
+//add_filter( 'shorty_add_shortcode_slug', 'shorty_add_prefix' );
+//add_filter( 'shorty_admin_display_shortcode', 'shorty_add_prefix' );

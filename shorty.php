@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: Shorty - The Shortcode Manager
-Plugin URL: https://coder.flowdee.de
+Plugin URL: https://wordpress.org/plugins/shorty/
 Description: Hey! I'm Shorty, the WordPress Shortcode Manager and your shortcode buddy.
-Version: 1.0.0
+Version: 1.1.0
 Author: flowdee
 Author URI: https://coder.flowdee.de
 Contributors: flowdee
@@ -29,7 +29,7 @@ if ( !defined( 'SHORTY_PLUGIN_VERSION' ) ) {
  *******************************************/
 global $wpdb;
 
-$shorty_options = get_option( 'shorty_settings' );
+//$shorty_options = get_option( 'shorty_settings' );
 
 /*******************************************
  * plugin text domain for translations
@@ -67,7 +67,7 @@ include( SHORTY_PLUGIN_DIR . 'includes/shortcodes.php' );
 
 // admin only includes
 if( is_admin() ) {
-    include( SHORTY_PLUGIN_DIR . 'includes/admin/class.settings.php' );
+    //include( SHORTY_PLUGIN_DIR . 'includes/admin/class.settings.php' );
     include( SHORTY_PLUGIN_DIR . 'includes/admin/manage-posts.php' );
     include( SHORTY_PLUGIN_DIR . 'includes/admin/post-type.php' );
 }

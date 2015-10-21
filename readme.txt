@@ -1,10 +1,10 @@
 === Shorty - The Shortcode Manager ===
 Contributors: flowdee
-Donate link: https://coder.flowdee.de
+Donate link: http://coder.flowdee.de/link/wishlist
 Tags: shortcode, shortcodes, shortcode manager, shortcodes manager, shorty, manage shortcodes, manage shortcode
 Requires at least: 3.5.1
 Tested up to: 4.3.1
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -37,7 +37,7 @@ In order to use a shortcode within your WordPress pages and posts you simply pas
 
 = You like it? =
 
-Please support the plugin development and at least rate the plugin. Of course donations are welcome too :)
+You can at least support the plugin development and rate it up!
 
 == Installation ==
 
@@ -82,10 +82,16 @@ Yes! Nesting shortcodes is supported.
 
 == Changelog ==
 
+= Version 1.1.0 (21th October 2015) =
+* Removed extra prefixing due to the fact that it can be easily done via the overview page
+
 = Version 1.0.0 (20th October 2015) =
 * Shorty was born!
 
 == Upgrade Notice ==
+
+= Version 1.1.0 (21th October 2015) =
+* Removed extra prefixing due to the fact that it can be easily done via the overview page
 
 = Version 1.0.0 (20th October 2015) =
 * Shorty was born!
