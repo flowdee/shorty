@@ -4,7 +4,7 @@ Donate link: http://coder.flowdee.de/link/wishlist
 Tags: shortcode, shortcodes, shortcode manager, shortcodes manager, shorty, manage shortcodes, manage shortcode
 Requires at least: 3.5.1
 Tested up to: 4.3.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -82,6 +82,9 @@ Yes! Nesting shortcodes is supported.
 
 == Changelog ==
 
+= Version 1.1.1 (23th October 2015) =
+* Improved compatibility for PHP versions lower than v5.3.0
+
 = Version 1.1.0 (21th October 2015) =
 * Removed extra prefixing due to the fact that it can be easily done via the overview page
 
@@ -89,6 +92,9 @@ Yes! Nesting shortcodes is supported.
 * Shorty was born!
 
 == Upgrade Notice ==
+
+= Version 1.1.1 (23th October 2015) =
+* Improved compatibility for PHP versions lower than v5.3.0
 
 = Version 1.1.0 (21th October 2015) =
 * Removed extra prefixing due to the fact that it can be easily done via the overview page

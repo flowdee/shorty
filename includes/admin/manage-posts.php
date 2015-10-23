@@ -9,13 +9,14 @@ if (!defined('ABSPATH')) exit;
 /*
  * Remove single view for shortocdes
  */
-add_filter( 'post_row_actions', function( $actions ) {
+function shorty_post_row_actions ( $actions ) {
 
     if ( get_post_type() === 'shortcode' )
         unset( $actions['view'] );
     return $actions;
+}
 
-}, 10, 1 );
+add_filter( 'post_row_actions', 'shorty_post_row_actions', 10, 1 );
 
 /*
  * Add shortcode to admin columns
