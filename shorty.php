@@ -3,7 +3,7 @@
 Plugin Name: Shorty - The Shortcode Manager
 Plugin URL: https://wordpress.org/plugins/shorty/
 Description: Hey! I'm Shorty, the WordPress Shortcode Manager and your shortcode buddy.
-Version: 1.1.1
+Version: 1.2.0
 Author: flowdee
 Author URI: https://coder.flowdee.de
 Contributors: flowdee
@@ -19,9 +19,6 @@ if ( !defined( 'SHORTY_PLUGIN_URL' ) ) {
 }
 if ( !defined( 'SHORTY_PLUGIN_FILE' ) ) {
     define( 'SHORTY_PLUGIN_FILE', __FILE__ );
-}
-if ( !defined( 'SHORTY_PLUGIN_VERSION' ) ) {
-    define( 'SHORTY_PLUGIN_VERSION', '1.0.0' );
 }
 
 /*******************************************
