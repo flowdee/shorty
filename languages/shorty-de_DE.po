@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shorty\n"
-"POT-Creation-Date: 2015-10-20 19:29+0100\n"
-"PO-Revision-Date: 2015-10-20 19:29+0100\n"
+"POT-Creation-Date: 2015-10-24 20:17+0100\n"
+"PO-Revision-Date: 2015-10-24 20:17+0100\n"
 "Last-Translator: flowdee <coder@flowdee.de>\n"
 "Language-Team: flowdee <coder@flowdee.de>\n"
 "Language: de_DE\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Shorty Settings"
 msgstr "Shorty Einstellungen"
 
-#: includes/admin/class.settings.php:32 shorty.php:50
+#: includes/admin/class.settings.php:32 shorty.php:47
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -44,7 +44,7 @@ msgstr ""
 "<strong>Hinweis:</strong> Nach dem Aktualisieren des Präfixes, musst du die "
 "platzierten Sportcodes in deinen Beiträgen/Seiten anpassen."
 
-#: includes/admin/manage-posts.php:29 includes/admin/post-type.php:16
+#: includes/admin/manage-posts.php:30 includes/admin/post-type.php:16
 #: includes/admin/post-type.php:30
 msgid "Shortcode"
 msgstr "Shortcode"
@@ -107,9 +107,9 @@ msgstr "Nicht gefunden"
 msgid "Not found in Trash"
 msgstr "Nicht im Papierkorb gefunden"
 
-#: shorty.php:51
+#: shorty.php:48
 msgid "Manage Shortcodes"
-msgstr "Sportcodes verwalten"
+msgstr "Shortcodes verwalten"
 
 #. Plugin Name of the plugin/theme
 msgid "Shorty - The Shortcode Manager"
