@@ -57,6 +57,19 @@ function shorty_get_shortcodes() {
     return $shortcodes;
 }
 
+/*
+ * Replace hyphens with underscores to avoid wp shortcode rendering issues
+ */
+function shorty_replace_hyphens_with_underscores( $slug ) {
+
+    $slug = str_replace( '-', '_', $slug );
+
+    return $slug;
+}
+
+add_filter( 'shorty_add_shortcode_slug', 'shorty_replace_hyphens_with_underscores' );
+add_filter( 'shorty_admin_display_shortcode', 'shorty_replace_hyphens_with_underscores' );
+
 // Add prefix
 function shorty_add_prefix( $slug ) {
 
