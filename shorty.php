@@ -67,4 +67,5 @@ if( is_admin() ) {
     //include( SHORTY_PLUGIN_DIR . 'includes/admin/class.settings.php' );
     include( SHORTY_PLUGIN_DIR . 'includes/admin/manage-posts.php' );
     include( SHORTY_PLUGIN_DIR . 'includes/admin/post-type.php' );
+    include( SHORTY_PLUGIN_DIR . 'includes/admin/tinymce/tinymce.php' );
 }
