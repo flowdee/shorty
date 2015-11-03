@@ -17,7 +17,7 @@ function shorty_register_mce_button($buttons) {
     return $buttons;
 }
 
-add_filter('mce_buttons_2', 'shorty_register_mce_button');
+add_filter('mce_buttons', 'shorty_register_mce_button');
 
 /*
  * Register Ajax calls
