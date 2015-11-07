@@ -24,6 +24,8 @@ With Shorty you create shortcodes within your admin dashboard, place them on pos
 *   Nesting shortcodes supported
 *   Regular updates and improvements!
 
+**This plugin requires at least PHP 5.3.0**
+
 = What is a shortcode? =
 Shortcodes are placeholders for certain content e.g. text, images and/or functionality.
 
