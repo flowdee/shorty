@@ -1,5 +1,5 @@
 # Shorty
-![Plugin Version](https://img.shields.io/wordpress/plugin/v/shorty.svg "Plugin Version") ![WordPress Version Compatibility](https://img.shields.io/wordpress/v/shorty.svg "WordPress Version Compatibility") ![Downloads](https://img.shields.io/wordpress/plugin/dt/shorty.svg "Downloads") ![Rating](https://img.shields.io/wordpress/plugin/r/shorty.svg "Rating")
+[![Plugin Version](https://img.shields.io/wordpress/plugin/v/shorty.svg)](https://wordpress.org/plugins/shorty/) [![WordPress Version Compatibility](https://img.shields.io/wordpress/v/shorty.svg)](https://wordpress.org/plugins/shorty/) [![Downloads](https://img.shields.io/wordpress/plugin/dt/shorty.svg)](https://wordpress.org/plugins/shorty/) [![Rating](https://img.shields.io/wordpress/plugin/r/shorty.svg)](https://wordpress.org/plugins/shorty/)
 
 Hey! I'm Shorty, the WordPress Shortcode Manager and your shortcode buddy.
 
