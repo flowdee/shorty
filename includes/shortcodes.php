@@ -18,8 +18,8 @@ function shorty_register_shortcodes() {
             if (empty($shortcode['slug']) || empty($shortcode['content']))
                 continue;
 
-            $slug = apply_filters( 'shorty_add_shortcode_slug', $shortcode['slug'] );
-            $content = apply_filters( 'shorty_add_shortcode_content', $shortcode['content']);
+            $slug = $shortcode['slug'];
+            $content = $shortcode['content'];
 
             // Return final shortcode content
             $function = function() use ($content) {
@@ -40,14 +40,15 @@ function shorty_get_shortcodes() {
     $shortcodes = array();
 
     // Args
-    $args = array( 'post_type' => array( 'shortcode' ), 'posts_per_page' => -1 );
+    $args = array( 'post_type' => array( 'shortcode' ), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' );
 
     $shortcodes_setup = get_posts( $args );
     foreach ( $shortcodes_setup as $shortcode ) : setup_postdata( $shortcode );
 
         $shortcodes[] = array(
-            'slug' => $shortcode->post_name,
-            'content' => wpautop($shortcode->post_content)
+            'slug' => apply_filters( 'shorty_get_shortcode_slug', $shortcode->post_name ),
+            'title' => $shortcode->post_title,
+            'content' => apply_filters( 'shorty_get_shortcode_content', wpautop($shortcode->post_content) )
         );
 
     endforeach;
@@ -67,7 +68,7 @@ function shorty_replace_hyphens_with_underscores( $slug ) {
     return $slug;
 }
 
-add_filter( 'shorty_add_shortcode_slug', 'shorty_replace_hyphens_with_underscores' );
+add_filter( 'shorty_get_shortcode_slug', 'shorty_replace_hyphens_with_underscores' );
 add_filter( 'shorty_admin_display_shortcode', 'shorty_replace_hyphens_with_underscores' );
 
 // Add prefix
