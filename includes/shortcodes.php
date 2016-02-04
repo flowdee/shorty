@@ -38,6 +38,8 @@ add_action('init', 'shorty_register_shortcodes');
 function shorty_get_shortcodes() {
 
     $shortcodes = array();
+    $autop = apply_filters( 'shorty_get_shortcode_content_autop', true );
+    $content = '';
 
     // Args
     $args = array( 'post_type' => array( 'shortcode' ), 'posts_per_page' => -1, 'orderby' => 'title', 'order' => 'ASC' );
@@ -45,10 +47,11 @@ function shorty_get_shortcodes() {
     $shortcodes_setup = get_posts( $args );
     foreach ( $shortcodes_setup as $shortcode ) : setup_postdata( $shortcode );
 
+        $content = $autop ? wpautop($shortcode->post_content) : $shortcode->post_content;
         $shortcodes[] = array(
             'slug' => apply_filters( 'shorty_get_shortcode_slug', $shortcode->post_name ),
             'title' => $shortcode->post_title,
-            'content' => apply_filters( 'shorty_get_shortcode_content', wpautop($shortcode->post_content) )
+            'content' => apply_filters( 'shorty_get_shortcode_content', $content )
         );
 
     endforeach;
