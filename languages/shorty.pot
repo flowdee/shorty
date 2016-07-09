@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shorty\n"
-"POT-Creation-Date: 2016-07-09 08:59+0200\n"
+"POT-Creation-Date: 2016-07-09 10:01+0200\n"
 "PO-Revision-Date: 2015-10-16 16:53+0100\n"
 "Last-Translator: flowdee <coder@flowdee.de>\n"
 "Language-Team: flowdee <coder@flowdee.de>\n"
@@ -44,6 +44,18 @@ msgstr ""
 #: includes/admin/manage-posts.php:30 includes/admin/post-type.php:16
 #: includes/admin/post-type.php:30
 msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/meta.php:15
+msgid "Shortcode Details"
+msgstr ""
+
+#: includes/admin/meta.php:39
+msgid "Inline Shortcode"
+msgstr ""
+
+#: includes/admin/meta.php:41
+msgid "Removing paragraphs around the output."
 msgstr ""
 
 #: includes/admin/post-type.php:13

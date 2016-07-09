@@ -60,6 +60,7 @@ add_filter( 'plugin_row_meta', 'shorty_plugin_row_meta', 10, 2 );
  *******************************************/
 
 // global includes
+include( SHORTY_PLUGIN_DIR . 'includes/functions.php' );
 include( SHORTY_PLUGIN_DIR . 'includes/shortcodes.php' );
 
 // admin only includes
@@ -68,4 +69,5 @@ if( is_admin() ) {
     include( SHORTY_PLUGIN_DIR . 'includes/admin/manage-posts.php' );
     include( SHORTY_PLUGIN_DIR . 'includes/admin/post-type.php' );
     include( SHORTY_PLUGIN_DIR . 'includes/admin/tinymce/tinymce.php' );
+    include( SHORTY_PLUGIN_DIR . 'includes/admin/meta.php' );
 }

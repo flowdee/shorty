@@ -45,10 +45,15 @@ function shorty_get_shortcodes() {
     $shortcodes_setup = get_posts( $args );
     foreach ( $shortcodes_setup as $shortcode ) : setup_postdata( $shortcode );
 
+        $wpautop = apply_filters( 'shorty_wpautop_shortcode_content', true, $shortcode->ID );
+
+        $content = ( true === $wpautop ) ? wpautop( $shortcode->post_content ) : $shortcode->post_content;
+
         $shortcodes[] = array(
+            'id' => $shortcode->ID,
             'slug' => apply_filters( 'shorty_get_shortcode_slug', $shortcode->post_name ),
             'title' => $shortcode->post_title,
-            'content' => apply_filters( 'shorty_get_shortcode_content', wpautop($shortcode->post_content) )
+            'content' => apply_filters( 'shorty_get_shortcode_content', $content )
         );
 
     endforeach;
