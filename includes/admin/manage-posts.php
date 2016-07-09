@@ -27,7 +27,7 @@ add_action('manage_shortcode_posts_custom_column', 'shorty_extend_columns_conten
 // ADD NEW COLUMN
 function shorty_extend_columns($defaults) {
 
-    $defaults['shorty_shortcode_tag'] = __( 'Shortcode', 'sinclair-pharma' );
+    $defaults['shorty_shortcode_tag'] = __( 'Shortcode', 'shorty' );
 
     return $defaults;
 }

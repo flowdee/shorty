@@ -2,20 +2,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Shorty\n"
-"POT-Creation-Date: 2015-10-16 16:53+0100\n"
+"POT-Creation-Date: 2016-07-09 08:59+0200\n"
 "PO-Revision-Date: 2015-10-16 16:53+0100\n"
 "Last-Translator: flowdee <coder@flowdee.de>\n"
 "Language-Team: flowdee <coder@flowdee.de>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.1\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: shorty.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
-"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
-"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -23,7 +23,7 @@ msgstr ""
 msgid "Shorty Settings"
 msgstr ""
 
-#: includes/admin/class.settings.php:32 shorty.php:50
+#: includes/admin/class.settings.php:32 shorty.php:47
 msgid "Settings"
 msgstr ""
 
@@ -41,7 +41,7 @@ msgid ""
 "every shortcode placed within your posts/pages."
 msgstr ""
 
-#: includes/admin/manage-posts.php:29 includes/admin/post-type.php:16
+#: includes/admin/manage-posts.php:30 includes/admin/post-type.php:16
 #: includes/admin/post-type.php:30
 msgid "Shortcode"
 msgstr ""
@@ -56,7 +56,6 @@ msgctxt "Post Type Singular Name"
 msgid "Shortcode"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
 #: includes/admin/post-type.php:15
 msgid "Shorty"
 msgstr ""
@@ -105,13 +104,17 @@ msgstr ""
 msgid "Not found in Trash"
 msgstr ""
 
-#: shorty.php:51
+#: shorty.php:48
 msgid "Manage Shortcodes"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Shorty - The Shortcode Manager"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Hey! I'm Shorty, a WordPress Shortcode Manager and your shortcode buddy."
+"Hey! I'm Shorty, the WordPress Shortcode Manager and your shortcode buddy."
 msgstr ""
 
 #. Author of the plugin/theme
