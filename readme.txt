@@ -1,10 +1,10 @@
 === Shorty - The Shortcode Manager ===
 Contributors: flowdee
-Donate link: http://coder.flowdee.de/link/wishlist
+Donate link: https://donate.flowdee.de/
 Tags: shortcode, shortcodes, shortcode manager, shortcodes manager, shorty, manage shortcodes, manage shortcode, tinymce, editor
 Requires at least: 3.5.1
-Tested up to: 4.3.1
-Stable tag: 1.2.2
+Tested up to: 4.5.3
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,7 @@ With Shorty you create shortcodes within your admin dashboard, place them on pos
 *   TinyMCE button for easy shortcode selection
 *   Prefix all of your shortcodes and make them independent from other plugins
 *   Nesting shortcodes supported
+*   Inline & Block shortcodes
 *   Regular updates and improvements!
 
 **This plugin requires at least PHP 5.3.0**
@@ -86,6 +87,10 @@ Yes! Nesting shortcodes is supported.
 
 == Changelog ==
 
+= Version 1.2.3 (9th July 2016) =
+* New: Added inline shortcode functionality
+* Updated translations
+
 = Version 1.2.2 (7th November 2015) =
 * Note: This plugin requires at least PHP 5.3.0
 
@@ -106,6 +111,10 @@ Yes! Nesting shortcodes is supported.
 * Shorty was born!
 
 == Upgrade Notice ==
+
+= Version 1.2.3 (9th July 2016) =
+* New: Added inline shortcode functionality
+* Updated translations
 
 = Version 1.2.2 (7th November 2015) =
 * Note: This plugin requires at least PHP 5.3.0

@@ -13,3 +13,5 @@ With Shorty you create shortcodes within your admin dashboard, place them on pos
 ## More information
 
 * Follow me on Twitter [@flowdee](https://twitter.com/flowdee/) to stay in contact and informed about updates
+
+You like my work? [Support me](https://donate.flowdee.de/) or not. I don't mind, as long as I was able to help you :wink:
