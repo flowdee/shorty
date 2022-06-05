@@ -1,6 +1,6 @@
 === Shorty - The Shortcode Manager ===
 Contributors: flowdee
-Donate link: https://donate.flowdee.de/
+Donate link: https://github.com/sponsors/flowdee
 Tags: shortcode, shortcodes, shortcode manager, shortcodes manager, shorty, manage shortcodes, manage shortcode, tinymce, editor
 Requires at least: 3.5.1
 Tested up to: 4.5.3
